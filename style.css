@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
 body{
     margin: 0;
     padding: 0;
     background-color: black;
     color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-transform: uppercase;
 }
 
 h1 {
     font-size: clamp(3.125rem, 3.464vw + 2.229rem, 5rem);
     line-height: clamp(4.688rem, 3.349vw + 3.821rem, 6.5rem);
-    justify-content: center;
-    align-items: center;
+
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
